@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>s4shantnu</title>
+   <link rel="stylesheet" href="css/style1.css">
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style1.css" class="css">
+</head>
+<style>
+   /*CSS RESET*/
+   body {
+      font-family: 'Baloo Da 2', cursive;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url(img/gym4.jpg) no-repeat fixed center;
+      background-size: 1441px 900px;
+   }
+
+   .header{
+      background-color: black;
+      top: -22px;
+      height: 80px;
+      position: relative;
+      
+   }
+   .left {
+      display: inline-block;
+      /*border: 2px solid green;*/
+      position: absolute;
+      left: 34px;
+      top: 8px;
+   }
+
+   .left img {
+      width: 57px;
+      padding: 2px 17px;
+   }
+
+   .left div {
+      text-align: center;
+   }
+
+   .mid {
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+      /* border: 2px solid red;*/
+   }
+
+   .navbar {
+      display: inline-block;
+   }
+
+   .navbar li {
+      display: inline-block;
+   }
+
+   .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 20px;
+   }
+
+   .navbar li a:hover,
+   .navbar li a.active {
+      color: grey;
+      text-decoration: underline;
+   }
+
+   .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /*border: 2px solid blue;*/
+
+   }
+
+   .btn {
+      font-family: 'Baloo Da 2', cursive;
+      margin: 3px 5px;
+      background-color: black;
+      color: white;
+      padding: 0px 10px;
+      border-radius: 7px;
+      font-size: 14px;
+      cursor: pointer;
+   }
+
+   .btn:hover {
+      background-color: rgb(49, 47, 47);
+   }
+
+   .container {
+      border: 2px solid yellow;
+      margin: 97px 806px;
+      padding: 14px;
+      width: 37%;
+      border-radius: 28px;
+   }
+
+   .container h1 {
+      text-align: center;
+      color: red;
+   }
+
+   .form_group input {
+      text-align: center;
+      display: block;
+      width: 368px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 2px auto;
+      font-size: 20px;
+      border-radius: 20px;
+   }
+
+   .container button {
+      display: block;
+      width: 63%;
+      margin: 10px auto;
+   }
+</style>
+
+<body>
+   <header class="header">
+      <div class="left">
+         <img src="img/logo.jpg" alt="">
+         <div>Shanu Fitness</div>
+      </div>
+
+      <div class="mid">
+         <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </div>
+      <div class="right">
+         <button class="btn">Call Us</button>
+         <button class="btn">Email Us</button>
+      </div>
+   </header>
+   <div class="container">
+      <h1>JOIN THE BEST GYM OF NAGPUR NOW</h1>
+      <div id="drag">
+         <form action="noaction.php">
+            <div class="form_group">
+               <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form_group">
+               <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form_group">
+               <input type="text" name="" placeholder="Enter your Contact No">
+            </div>
+            <div class="form_group">
+               <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Submit</button>
+         </form>
+
+      </div>
+   </div>
+</body>
+
+</html>
